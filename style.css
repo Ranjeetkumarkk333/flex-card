@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    max-width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  } 
+   img {
+    max-width: 100%;
+  }
+  .text {
+    display:flex;
+    flex-direction: column;
+    background: rgb(147, 238, 217);
+    padding: 0 10px 10px 10px;
+    flex-grow: 1;
+  }
+  a {
+    background: rgb(50, 66, 234);
+    color: white;
+    padding: 6px 40px;
+    align-self: center;
+    }
+
+    span {
+        flex-grow: 1;
+    }
